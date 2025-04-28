@@ -6,11 +6,13 @@ export default {
     // The key is the recipient address and the value is an address
     // or an array of addresses to forward the message to.
     const forwardList = {
-      "address@domain.tld": [
-        "someone@to.forward.to",
-        "somene-else@to.forward.to",
+      "bestuur@trogvzw.com": [
+        "brechtmaerivoet@gmail.com",
+        "seppe.vanderbeeck@gmail.com",
+        "Akramelsayed.aes@gmail.com"
+        "Quinten.deboeck@outlook.be"
       ],
-      "another-address@domain.tld": "somebody@to.forward.to",
+     
     };
 
     // Extracts the email address without subaddressing,
