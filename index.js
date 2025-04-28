@@ -11,7 +11,7 @@ export default {
         "seppe.vanderbeeck@gmail.com",
         "Akramelsayed.aes@gmail.com",
         "Quinten.deboeck@outlook.be"
-      ],
+      ]
      
     };
 
