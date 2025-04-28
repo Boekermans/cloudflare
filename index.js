@@ -1,13 +1,12 @@
 export default {
   async email(message, env, ctx) {
-    const forwardList = {
-      "bestuur@trogvzw.com": [
-        "brechtmaerivoet@gmail.com",
-        "seppe.vanderbeeck@gmail.com",
-        "Akramelsayed.aes@gmail.com",
-        "Quinten.deboeck@outlook.be"
-      ]
-    };
+const forwardList = {
+  "address@domain.tld": [
+    "recipient1@forward.to",
+    "recipient2@forward.to",
+  ],
+  "another-address@domain.tld": "recipient@forward.to",
+};
 
     const extractAddress = (email) => {
       const [localPart, domain] = email.split("@");
