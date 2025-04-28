@@ -7,10 +7,9 @@ export default {
     // or an array of addresses to forward the message to.
     const forwardList = {
       "bestuur@trogvzw.com": [
-        "quinten2440@gmail.com"
         "brechtmaerivoet@gmail.com",
         "seppe.vanderbeeck@gmail.com",
-        "Akramelsayed.aes@gmail.com"
+        "Akramelsayed.aes@gmail.com",
         "Quinten.deboeck@outlook.be"
       ],
      
