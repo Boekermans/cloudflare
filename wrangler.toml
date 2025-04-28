@@ -1,4 +1,4 @@
-name = "email-forwarding"
+name = "email-forwarding2"
 main = "index.js"
 compatibility_date = "2024-09-02"
 
